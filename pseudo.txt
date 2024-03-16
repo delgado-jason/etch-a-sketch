@@ -1,5 +1,6 @@
-// Create a page with a 16x16 grid using flexbox.
-    Square size with 900 page width =
-        50px with 4px borders
+#1: Create a page with a 16x16 grid using flexbox.
+    Square size with 900 page width 50px with 4px borders
 
-Create a hover effect when the mouse goes over the square.
+#2: Create a hover effect when the mouse goes over the square.
+
+#3: Create a grid dynamically with a fixed page width of 960px wide.

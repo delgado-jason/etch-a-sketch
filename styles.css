@@ -8,18 +8,63 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #F1F2AC;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Roboto, serif;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .container {
-    max-width: 800px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.button-group {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#reset {
+    background-color: #DB1D18;
+    color: black;
+}
+
+#grid-size {
+    background-color: #97CEF7;
+    color: black;
+}
+
+.square-container {
+    width: 700px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .square {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border: 4px solid grey;
+    background-color: #DB1D18;
+    border: 4px solid #F0F285;
+    padding: 4px;
 }
